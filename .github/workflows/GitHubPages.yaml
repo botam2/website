@@ -27,7 +27,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.HUGO_DEPLOY_TOKEN }}
+          personal_token: ${{ secrets.mytoken }}
           external_repository: botam2/botam2.github.io
           publish_dir: ./public
           publish_branch: master
