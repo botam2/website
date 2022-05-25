@@ -28,7 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          external_repository: botam2/botam2.github.io
+          create: gh-pages
           publish_dir: ./public
           publish_branch: main
           #   keep_files: true
